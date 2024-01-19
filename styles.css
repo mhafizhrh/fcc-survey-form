@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+#main {
+    width: 700px;
+    height: 100%;
+    background-color: #e1e1e1;
+    margin: auto;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    margin-top: 0;
+}
+
+#survey-form {
+    display: grid;
+    gap: 4px;
+}
+
+#survey-form-sub {
+    display: grid;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    padding: 10px 16px 10px 4px;
+    border: 0;
+    margin-bottom: 8px;
+}
+
+input[type="radio"] {
+    margin-left: 0;
+}
+
+textarea {
+    /* padding: 10px 16px 10px 4px; */
+    border: 0;
+    margin-bottom: 8px;
+}
+
+button {
+    padding: 10px 16px 10px 4px;
+    background-color: #5c5c5c;
+    color: #fff;
+    border: 0;
+    margin-bottom: 8px;
+}
+
+button:hover {
+    background-color: #3c3c3c;
+    color: #fff;
+    cursor: pointer;
+}
